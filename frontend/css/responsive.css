@@ -1,0 +1,135 @@
+/* ==========================================================================
+   CEREBRO Responsive Design
+   Works smoothly on Desktop, Tablet, and Mobile
+   ========================================================================== */
+
+/* Laptop / Medium Desktop (<= 1200px) */
+@media (max-width: 1200px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  .distribution-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+/* Tablet (<= 992px) */
+@media (max-width: 992px) {
+  :root {
+    --sidebar-width: 78px;
+  }
+
+  .brand-title, .brand-subtitle, .nav-item span, .sidebar-info-card, .sidebar-project-tag {
+    display: none;
+  }
+
+  .sidebar-header {
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+
+  .nav-item {
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .view-container {
+    padding: 20px;
+  }
+
+  .app-header {
+    padding: 0 20px;
+  }
+
+  .key-moments-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .moment-flow-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .flow-arrow {
+    transform: rotate(90deg);
+  }
+}
+
+/* Mobile Devices (<= 640px) */
+@media (max-width: 640px) {
+  .app-container {
+    flex-direction: column-reverse;
+  }
+
+  .app-sidebar {
+    width: 100vw;
+    height: 60px;
+    flex-direction: row;
+    padding: 8px 16px;
+    border-right: none;
+    border-top: 1px solid var(--border-subtle);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .sidebar-header, .sidebar-footer {
+    display: none;
+  }
+
+  .sidebar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .nav-item {
+    padding: 8px 12px;
+  }
+
+  .app-main {
+    height: calc(100vh - 60px);
+  }
+
+  .app-header {
+    height: 60px;
+    padding: 0 16px;
+  }
+
+  .header-actions .btn span {
+    display: none;
+  }
+
+  .header-actions .btn {
+    padding: 8px 10px;
+  }
+
+  .view-container {
+    padding: 14px 14px 80px;
+  }
+
+  .message-card {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .message-avatar {
+    width: 34px;
+    height: 34px;
+    font-size: 0.75rem;
+  }
+
+  .donut-chart-wrapper {
+    width: 140px;
+    height: 140px;
+  }
+}

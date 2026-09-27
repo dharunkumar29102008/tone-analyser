@@ -1,0 +1,12 @@
+27/09/26, 10:12 am - Dharun: Bro, did you finish the project? The deadline is tomorrow 😅
+27/09/26, 10:15 am - Aravind: Yea... almost. Just need to fix a few bugs.
+27/09/26, 10:18 am - Dharun: "Almost" ah? 🤨 Last night you said it was done!
+27/09/26, 10:20 am - Aravind: Bro chill... I was testing okay? Not my fault the code is acting weird.
+27/09/26, 10:22 am - Dharun: Hmm sure... You're the only one who can "test" for 3 hours and still not finish. 😒
+27/09/26, 10:25 am - Aravind: Okay okay! I'll finish it now. No more drama. 😅
+27/09/26, 10:28 am - Dharun: Wait, the CI build is broken again. Why is this always last minute? 😡
+27/09/26, 10:30 am - Aravind: Relax, it's just a linter warning. Don't blow this out of proportion.
+27/09/26, 10:32 am - Dharun: Brilliant. Because broken builds definitely win hackathons. 🙃
+27/09/26, 10:35 am - Dharun: Seriously, we have 40 minutes left. This is ridiculous.
+27/09/26, 10:38 am - Aravind: Okay okay! I'll finish it now. No more drama. Fixed the lockfile, all tests pass!
+27/09/26, 10:40 am - Dharun: Good. Just don't pull the same thing again. We need to submit this and win! 🚀
