@@ -1,0 +1,9 @@
+# Ignore backend, tests, and python files so Vercel treats this as a pure static frontend
+backend/
+tests/
+requirements.txt
+*.py
+render.yaml
+sample_conversation.txt
+.env
+.env.example
