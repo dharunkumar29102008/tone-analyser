@@ -3,8 +3,17 @@
  */
 
 const Api = {
+  DEFAULT_BACKEND_URL: 'https://tone-analyser-nfa8.onrender.com',
+
   getBaseUrl() {
-    return localStorage.getItem('cerebro_api_url') || '';
+    const custom = localStorage.getItem('cerebro_api_url');
+    if (custom) return custom;
+    // If running locally, use same origin
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      return '';
+    }
+    // Default production backend on Render
+    return this.DEFAULT_BACKEND_URL;
   },
 
   setBaseUrl(url) {
